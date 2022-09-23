@@ -1,0 +1,272 @@
+html, body {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FAFAFA;
+}
+
+div {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 50px;
+    
+    position: absolute;
+    width: 601px;
+    height: 458px;
+    left: 419px;
+    top: 221px;
+    
+    /* Blanc */
+    
+    background: #FFFFFF;
+    /* Light Sapphire */
+    
+    border: 3px solid #E6ECFE;
+    border-radius: 20px;
+
+    
+}
+.welcome {
+    /* Welcome Back! */
+
+
+    width: 269px;
+    height: 47px;
+
+    /* H1 - Headings */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    /* Sapphire */
+
+    color: #253C85;
+
+}
+div1 {
+    /* Header Titles */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+
+    width: 269px;
+    height: 75px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+h1 {
+    /* Welcome Back! */
+
+
+    width: 269px;
+    height: 47px;
+
+    /* H1 - Headings */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    /* Sapphire */
+
+    color: #253C85;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+h4 {
+    /* Sign in to continue */
+
+
+    width: 158px;
+    height: 23px;
+
+    /* H4 - Card, Nav, Tab */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    /* Dark Grey */
+    color: #525454;
+}
+div2 {
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+div3 {
+    /* Inputs */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 69px;
+
+    width: 481px;
+    height: 128px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.A {
+    width: 45px;
+    height: 38px;
+
+    /* OVERLINE 1 */
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    flex-direction: column;
+
+    /* Dark Grey */
+
+    color: #525454;
+
+}
+.B {
+    /* Empty */
+
+
+    position: absolute;
+    width: 156px;
+    height: 19px;
+    left: 6px;
+    top: 11px;
+
+    /* Body 1 - Text Block, Button */
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* Mid Grey */
+
+    color: #A9A9A9;
+}
+.C {
+
+    width: 316px;
+    height: 19px;
+    /* Body 1 - Text Block, Button */
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* Dark Grey */
+
+    color: #525454;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+button {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 12px;
+    gap: 10px;
+
+    width: 69px;
+    height: 35px;
+
+    /* Sapphire */
+
+    background: #253C85;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    
+    flex-grow: 0;
+}
+.D {
+    /* Primary */
+
+
+    width: 45px;
+    height: 19px;
+
+    /* Body 1 - Bold, Buttons */
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* Light Sapphire */
+
+    color: #E6ECFE;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+div4 {
+    margin-bottom: 60%;
+    position: relative;
+}
